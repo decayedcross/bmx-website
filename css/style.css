@@ -38,15 +38,17 @@ body header section nav ul li a{
 	text-decoration: none;
 }
 #bmx-main{
-	width: 100%;
-	background: #191919;
+	width: 100%;	
+	margin-left: auto;
+	margin-right: auto;
+	text-decoration: none;
+	text-align: center;
+	background-color: #191919;
 }
 #bmx-main img{
-	width: 60%;
-	margin: 0 auto;
-	display: block;
-	padding: 25px 0 25px 0;
-	height: 60%;	
+	width: 970px;
+	margin:0 auto;
+	padding: 15px 0 20px 0;
 }
 #bmx-nav{
 	width: 100%;
@@ -115,4 +117,59 @@ body header section nav ul li a{
 	text-align: right;
 	margin: 0 auto;
 	padding: 15 0;
+}
+#social-media{
+	width: 970px;	
+	margin-left: auto;
+	margin-right: auto;
+	text-decoration: none;
+	text-align: center;
+}
+#social-media a img{
+	height:26px;
+	width:24px;
+	display: inline-block;
+}
+body footer{
+	width: 100%;
+	float: left;
+	background-color: #000;
+	margin: 15px 0 0 0;
+}
+body footer section{
+	width: 970px;
+	margin:0 auto;
+}
+body footer section div{
+	width: 20%;
+	float: left;
+	padding: 13px 0 0 0;
+}
+body footer section div p{
+	color: #464646;
+	font-size: 13px;
+	margin:-1px 0 0 0;
+	padding: 0 0px 15px 15px;
+}
+body footer section div img{
+	width: 137px;
+	height: 33px;
+}
+body footer section nav{
+	width: 55%;
+	float: left;
+	cursor: hand;
+	cursor: pointer;
+}
+body footer section nav ul li{
+	display: inline;
+	width: 16.66666666666667%;
+	float: left;
+	padding: 13px 0 0 0;
+	font-size: 13px;
+	text-align: center;
+}
+body footer section nav ul li a{
+	text-decoration: none;
+	color: #464646;
 }
