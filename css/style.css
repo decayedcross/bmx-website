@@ -1,11 +1,29 @@
-header ul{
+* {
+margin: 0;
+padding: 0;
+}
+header{
+	background-color: #000;
+ }
+header ul li{
 	display: inline;
 	background-color: #000;
+	color: #fff;
 }
 #BigPhoto{
-	margin:50px;
 	background-color: #191919;
+	padding: 20px;
 }
-body main section{
-	color:#fff;
+body{
+	width: 100%;
+}
+body main section article ul li{
+	display: inline;
+	background-color: #464646;
+	color: #fff;
+ 	width: 100%;
+ }
+#LatestPost{
+	width: 33.33%;
+	float: left;
 }
