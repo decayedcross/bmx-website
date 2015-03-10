@@ -1,4 +1,11 @@
-#header {
+header ul{
 	display: inline;
-	background-color: #fff;
+	background-color: #000;
+}
+#BigPhoto{
+	margin:50px;
+	background-color: #191919;
+}
+body main section{
+	color:#fff;
 }
